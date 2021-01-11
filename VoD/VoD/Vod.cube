@@ -1,0 +1,301 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="cb7caaa9-50ad-4edf-bd3a-913a0f384caa" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Vod</ID>
+  <Name>Vod</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="b9fcaf42-310a-4309-863b-53b2be2c6950">
+      <ID>Obejrzenie Filmu Odcinka</ID>
+      <Name>Obejrzenie Filmu Odcinka</Name>
+      <DimensionID>Obejrzenie Filmu Odcinka</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="a1744048-074e-4ecb-a49f-2edddea9da46">
+          <AttributeID>ID Medium</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="97fdcdc8-ecca-47a9-ab5a-02dd3b2b827f">
+          <AttributeID>ID Lokalizacji Klienta</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2253ad31-8730-40c2-ae64-92ccf7c167cf">
+          <AttributeID>ID Daty</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b9753215-1ea2-41e5-99c0-41438e9daf50">
+          <AttributeID>ID Serwera</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ec91faa8-97fa-4ee5-8f57-15fc35014c2b">
+          <AttributeID>Obejrzenie Filmu Odcinka - ID Medium</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="03730f9e-8ac1-40a9-b9ba-a4975f458276">
+          <AttributeID>ID Czasu</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="f0be3516-74f6-4e75-b552-18e43fb9bb74">
+      <ID>Daty</ID>
+      <Name>Daty</Name>
+      <DimensionID>Daty</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="52d8fd4f-e2ad-4f55-827b-36d9b36b0ebe">
+          <AttributeID>ID Daty</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="905188a9-01bb-4a2e-9831-6f62dc51dac8">
+      <ID>Serwer</ID>
+      <Name>Serwer</Name>
+      <DimensionID>Serwer</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="e5d7a97b-9140-4052-bc22-52841a881056">
+          <AttributeID>ID Serwera</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="c3dd5cee-a3e5-4cab-aff0-c5e84a6efb04">
+      <ID>Media</ID>
+      <Name>Media</Name>
+      <DimensionID>Media</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="930f88ae-7da3-448a-ade6-7393154178c8">
+          <AttributeID>ID Medium</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="32a16c2b-a9da-40a9-988b-1dbc1f2cab73">
+      <ID>Czas</ID>
+      <Name>Czas</Name>
+      <DimensionID>Czas</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="9e36bf6c-a35d-412a-adad-132e3cd203f9">
+          <AttributeID>ID Czasu</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="8442a4fd-87dd-4420-ac0d-123a17b4d287">
+      <ID>Lokalizacja</ID>
+      <Name>Lokalizacja</Name>
+      <DimensionID>Lokalizacja</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="7dac35b1-62f7-44d6-b57c-074d056dcd8d">
+          <AttributeID>ID Lokalizacji</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="9291e5c0-f732-49f0-9cad-14a75b9d2d56">
+      <ID>Obejrzenie Filmu Odcinka</ID>
+      <Name>Obejrzenie Filmu Odcinka</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="5f4d3dce-2c1c-4f0e-bb74-fb06c4846c75">
+          <ID>Jakosc</ID>
+          <Name>Jakosc</Name>
+          <Source dwd:design-time-name="c1745852-9027-4141-b051-df6d5e4c7d79">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b2a79abd-8bc1-4290-95ac-7108d6b6117c">
+              <TableID>dbo_ObejrzenieFilmuOdcinka</TableID>
+              <ColumnID>Jakosc</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="08e95746-40b8-411c-a752-8e4a437a20e2">
+          <ID>Obejrzenie Filmu Odcinka Count</ID>
+          <Name>Obejrzenie Filmu Odcinka Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="d3a37a37-62c5-46de-9847-e24474aec3c3">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="c215b449-3133-4f55-8482-4fe899efb9e5">
+              <TableID>dbo_ObejrzenieFilmuOdcinka</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="f708ea6c-f183-4837-96be-60cec52c465e">
+          <CubeDimensionID>Obejrzenie Filmu Odcinka</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="70bd3801-3590-4791-b8d8-0c572c6f8ce6">
+              <AttributeID>ID Medium</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c29c4655-8915-4b02-99c0-2f533a3757b6">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f4453c9f-94f0-41a8-89e7-09c83b66cc22">
+                    <TableID>dbo_ObejrzenieFilmuOdcinka</TableID>
+                    <ColumnID>ID_Medium</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="8462b232-516b-4ae4-8c3a-714b2a9ec52d">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b4ffc078-80ca-4a05-bb7a-12bf1ee5f99a">
+                    <TableID>dbo_ObejrzenieFilmuOdcinka</TableID>
+                    <ColumnID>ID_Serwera</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="349c74b4-027a-42ca-bce4-2ca5ddd7ae0d">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a86c1946-f33b-41d5-ab0f-a1f273690d1f">
+                    <TableID>dbo_ObejrzenieFilmuOdcinka</TableID>
+                    <ColumnID>ID_LokalizacjiKlienta</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="7c19013e-1433-454c-ac08-6a6731d5503a">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="90cd894f-479f-49b8-a950-9a642e31c885">
+                    <TableID>dbo_ObejrzenieFilmuOdcinka</TableID>
+                    <ColumnID>ID_Daty</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="f00eb12f-2ee5-46ce-b4f7-14e476137178">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a7846b52-909f-44dc-bed1-118d1b8d0cf7">
+                    <TableID>dbo_ObejrzenieFilmuOdcinka</TableID>
+                    <ColumnID>ID_Czasu</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2b7f991d-bd4b-4e11-b981-56326a184491">
+          <CubeDimensionID>Lokalizacja</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="803fbd4f-e066-4dcd-a974-116e5c75523a">
+              <AttributeID>ID Lokalizacji</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="75b2a0a6-cc05-4437-aa7c-f339a6f04dae">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="37575208-c04f-4d0f-9285-643a47f19faf">
+                    <TableID>dbo_ObejrzenieFilmuOdcinka</TableID>
+                    <ColumnID>ID_LokalizacjiKlienta</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="804da061-5ed0-40b3-8303-37baaf6b5fcf">
+          <CubeDimensionID>Daty</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="9ebac9de-03cc-4c11-8044-cc40a65c3b29">
+              <AttributeID>ID Daty</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c0fbda2d-77cb-43bc-81a3-5181ca13dd47">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="aed65b79-b05b-489c-92f2-e51a194428b6">
+                    <TableID>dbo_ObejrzenieFilmuOdcinka</TableID>
+                    <ColumnID>ID_Daty</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="52c2ba93-70c9-47f5-ad1e-4875582b98af">
+          <CubeDimensionID>Serwer</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="3469b124-0679-4440-97c8-beae4f9627c9">
+              <AttributeID>ID Serwera</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c4258443-9c01-4917-b007-34d209b69f98">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5de473d5-4791-4c95-969b-71f808ed9ee3">
+                    <TableID>dbo_ObejrzenieFilmuOdcinka</TableID>
+                    <ColumnID>ID_Serwera</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7e7298d7-aad8-47f2-be3c-b8a9e7f8c3d6">
+          <CubeDimensionID>Media</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7010e893-468f-4160-9467-e55c8afe707d">
+              <AttributeID>ID Medium</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="ed581b8b-d189-4b75-902c-712dac4a6af2">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5997c193-f1a2-4487-b053-e608b85470b2">
+                    <TableID>dbo_ObejrzenieFilmuOdcinka</TableID>
+                    <ColumnID>ID_Medium</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b86a5a0e-dcff-442a-8061-5db51939faab">
+          <CubeDimensionID>Czas</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="a0625cbb-d378-48ed-b157-22b130cee1f1">
+              <AttributeID>ID Czasu</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="2991d562-2bc1-4f9d-8c7d-924c3164e7a8">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="be85fcfe-1e37-48e6-ba5f-e6b7d3dd3d8a">
+                    <TableID>dbo_ObejrzenieFilmuOdcinka</TableID>
+                    <ColumnID>ID_Czasu</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="4bd8d57a-db23-47a7-adcc-987108796fe7">
+    <DataSourceViewID>Vod</DataSourceViewID>
+  </Source>
+</Cube>

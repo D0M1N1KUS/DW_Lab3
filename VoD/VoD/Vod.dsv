@@ -1,0 +1,217 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e8752d72-042d-41e8-811f-67d4a3d9ce26" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Vod</ID>
+  <Name>Vod</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Vod</DataSourceID>
+  <Schema>
+    <xs:schema id="Vod" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Vod" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="e25a6860-dd99-4ffd-a79f-d04ab79ed92d">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_Czas" msprop:design-time-name="685c3c90-4cfa-427a-8b42-ed6cb3f07440" msprop:DbTableName="Czas" msprop:FriendlyName="Czas" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_Czasu" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="4bc5f05a-e036-4d68-9538-9866f99356c8" msprop:DbColumnName="ID_Czasu" msprop:FriendlyName="ID_Czasu" type="xs:int" />
+                  <xs:element name="PoraDnia" msprop:design-time-name="5bd1feaa-c8bb-49fe-9b87-0bb0e3b7a331" msprop:DbColumnName="PoraDnia" msprop:FriendlyName="PoraDnia" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="21" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Godzina" msdata:DataType="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:design-time-name="8192ce17-57d7-4a15-9966-b286cffd0022" msprop:DbColumnName="Godzina" msprop:FriendlyName="Godzina" type="xs:anyType" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Daty" msprop:design-time-name="80dc2ab4-3164-42ec-bccc-15417155c0d5" msprop:DbTableName="Daty" msprop:FriendlyName="Daty" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_Daty" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="3d2c4622-426c-46b1-b1a6-a9804318fb25" msprop:DbColumnName="ID_Daty" msprop:FriendlyName="ID_Daty" type="xs:int" />
+                  <xs:element name="Rok" msprop:design-time-name="b091ac74-afd5-4b50-9927-92088b30e64d" msprop:DbColumnName="Rok" msprop:FriendlyName="Rok" type="xs:int" minOccurs="0" />
+                  <xs:element name="Miesiac" msprop:design-time-name="26c5296a-82ca-41b7-a7b0-d54ab1558ef0" msprop:DbColumnName="Miesiac" msprop:FriendlyName="Miesiac" type="xs:int" minOccurs="0" />
+                  <xs:element name="Dzien" msprop:design-time-name="9c0a04c9-1e9a-4ff9-8e6d-ad3cf2784cdd" msprop:DbColumnName="Dzien" msprop:FriendlyName="Dzien" type="xs:int" minOccurs="0" />
+                  <xs:element name="DzienPrzedSwietem" msprop:design-time-name="4f21a2ea-4b5a-4f67-8fe3-ec7ce3e409b8" msprop:DbColumnName="DzienPrzedSwietem" msprop:FriendlyName="DzienPrzedSwietem" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="13" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Lokalizacja" msprop:design-time-name="f57a802a-c2a2-49f8-aeea-ac840f2b585f" msprop:DbTableName="Lokalizacja" msprop:FriendlyName="Lokalizacja" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_Lokalizacji" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="51cff308-a461-49a1-ab70-61d5869671d7" msprop:DbColumnName="ID_Lokalizacji" msprop:FriendlyName="ID_Lokalizacji" type="xs:int" />
+                  <xs:element name="Panstwo" msprop:design-time-name="d9e81724-7bd9-4f4e-b5dd-dd1908ce6fb9" msprop:DbColumnName="Panstwo" msprop:FriendlyName="Panstwo" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="143" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Wojewodztwo" msprop:design-time-name="556da742-a8a9-4095-a63e-ba906b9ed501" msprop:DbColumnName="Wojewodztwo" msprop:FriendlyName="Wojewodztwo" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="143" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Miasto" msprop:design-time-name="b511f195-069a-4132-aea5-76fea8a71459" msprop:DbColumnName="Miasto" msprop:FriendlyName="Miasto" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="143" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Media" msprop:design-time-name="597042ea-f22b-444b-b173-3720b02267d3" msprop:DbTableName="Media" msprop:FriendlyName="Media" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_Medium" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="4e180898-7fc3-495b-812c-ce88356c2a18" msprop:DbColumnName="ID_Medium" msprop:FriendlyName="ID_Medium" type="xs:int" />
+                  <xs:element name="Tytul" msprop:design-time-name="1c694e17-caa4-4bee-bcd4-00aa5e2c4f3a" msprop:DbColumnName="Tytul" msprop:FriendlyName="Tytul" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="1000" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Gatunek" msprop:design-time-name="3425e202-ad99-4b02-90d2-63719e4a5c0c" msprop:DbColumnName="Gatunek" msprop:FriendlyName="Gatunek" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="1000" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="RokProdukcji" msprop:design-time-name="3fb0d8e0-5220-416d-935f-bc2cb4581ed2" msprop:DbColumnName="RokProdukcji" msprop:FriendlyName="RokProdukcji" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_ObejrzenieFilmuOdcinka" msprop:design-time-name="2ed43f8f-9868-47bc-b196-1e470f3a1d53" msprop:DbTableName="ObejrzenieFilmuOdcinka" msprop:FriendlyName="ObejrzenieFilmuOdcinka" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_Medium" msprop:design-time-name="68327670-b09a-425f-928d-58cb8bc1cea9" msprop:DbColumnName="ID_Medium" msprop:FriendlyName="ID_Medium" type="xs:int" />
+                  <xs:element name="ID_Serwera" msprop:design-time-name="eddd66d7-d1dc-4d9f-a06b-421d36816f91" msprop:DbColumnName="ID_Serwera" msprop:FriendlyName="ID_Serwera" type="xs:int" />
+                  <xs:element name="ID_LokalizacjiKlienta" msprop:design-time-name="3139d367-0ea7-42e7-9037-75b76d9ad8ed" msprop:DbColumnName="ID_LokalizacjiKlienta" msprop:FriendlyName="ID_LokalizacjiKlienta" type="xs:int" />
+                  <xs:element name="ID_Daty" msprop:design-time-name="ed1438d4-18a7-4356-a2c3-3ff36e3742d8" msprop:DbColumnName="ID_Daty" msprop:FriendlyName="ID_Daty" type="xs:int" />
+                  <xs:element name="ID_Czasu" msprop:design-time-name="8110f2a7-84b6-4b06-8d64-efa4640b6c42" msprop:DbColumnName="ID_Czasu" msprop:FriendlyName="ID_Czasu" type="xs:int" />
+                  <xs:element name="Login" msprop:design-time-name="4020cf4d-1bc1-4cfc-a151-fda2928c8af1" msprop:DbColumnName="Login" msprop:FriendlyName="Login" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="1000" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Jakosc" msprop:design-time-name="a0695ed4-b8a8-4793-bdd5-d7112311d21d" msprop:DbColumnName="Jakosc" msprop:FriendlyName="Jakosc" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Serwer" msprop:design-time-name="6cc800ff-25f9-478a-998e-11a981f6d9f2" msprop:DbTableName="Serwer" msprop:FriendlyName="Serwer" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_Serwera" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="2a4c718c-9599-44a6-9b0b-c888569b517d" msprop:DbColumnName="ID_Serwera" msprop:FriendlyName="ID_Serwera" type="xs:int" />
+                  <xs:element name="Nazwa" msprop:design-time-name="1ad79a2f-684e-462a-99f7-d071baa97281" msprop:DbColumnName="Nazwa" msprop:FriendlyName="Nazwa" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="1024" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Czas" />
+          <xs:field xpath="ID_Czasu" />
+        </xs:unique>
+        <xs:unique name="dbo_Daty_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Daty" />
+          <xs:field xpath="ID_Daty" />
+        </xs:unique>
+        <xs:unique name="dbo_Lokalizacja_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Lokalizacja" />
+          <xs:field xpath="ID_Lokalizacji" />
+        </xs:unique>
+        <xs:unique name="dbo_Media_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Media" />
+          <xs:field xpath="ID_Medium" />
+        </xs:unique>
+        <xs:unique name="dbo_ObejrzenieFilmuOdcinka_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_ObejrzenieFilmuOdcinka" />
+          <xs:field xpath="ID_Medium" />
+          <xs:field xpath="ID_Serwera" />
+          <xs:field xpath="ID_LokalizacjiKlienta" />
+          <xs:field xpath="ID_Daty" />
+          <xs:field xpath="ID_Czasu" />
+        </xs:unique>
+        <xs:unique name="dbo_Serwer_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Serwer" />
+          <xs:field xpath="ID_Serwera" />
+        </xs:unique>
+        <xs:keyref name="FK__Obejrzeni__ID_Cz__5629CD9C" refer="Constraint1">
+          <xs:selector xpath=".//dbo_ObejrzenieFilmuOdcinka" />
+          <xs:field xpath="ID_Czasu" />
+        </xs:keyref>
+        <xs:keyref name="FK__Obejrzeni__ID_Me__52593CB8" refer="dbo_Media_Constraint1">
+          <xs:selector xpath=".//dbo_ObejrzenieFilmuOdcinka" />
+          <xs:field xpath="ID_Medium" />
+        </xs:keyref>
+        <xs:keyref name="FK__Obejrzeni__ID_Se__534D60F1" refer="dbo_Serwer_Constraint1">
+          <xs:selector xpath=".//dbo_ObejrzenieFilmuOdcinka" />
+          <xs:field xpath="ID_Serwera" />
+        </xs:keyref>
+        <xs:keyref name="FK__Obejrzeni__ID_Da__5535A963" refer="dbo_Daty_Constraint1">
+          <xs:selector xpath=".//dbo_ObejrzenieFilmuOdcinka" />
+          <xs:field xpath="ID_Daty" />
+        </xs:keyref>
+        <xs:keyref name="FK__Obejrzeni__ID_Lo__5441852A" refer="dbo_Lokalizacja_Constraint1">
+          <xs:selector xpath=".//dbo_ObejrzenieFilmuOdcinka" />
+          <xs:field xpath="ID_LokalizacjiKlienta" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Vod xmlns="" />
+  </Schema>
+</DataSourceView>
