@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="71d3c98a-b9a1-4b5d-b124-64da583d151c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="80889b38-fa72-422c-b669-758fa65d900e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Vod</ID>
   <Name>Vod</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="12" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-9992" scrolltop="-2905" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="35084" y="20929" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="24" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-9992" scrolltop="-2905" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="22066" y="21643" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Serwer" left="11630" top="6183" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Serwer" left="11630" top="6183" logicalid="12" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000057070000" />
             </control>
@@ -30,7 +30,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="ObejrzenieFilmuOdcinka" left="5420" top="5125" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3810" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="ObejrzenieFilmuOdcinka" left="5420" top="5125" logicalid="13" controlid="2" masterid="0" hint1="0" hint2="0" width="3810" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000e20e00009b0f0000" />
             </control>
@@ -41,7 +41,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Czas" left="2773" top="11520" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Czas" left="2773" top="11520" logicalid="14" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000fe080000" />
             </control>
@@ -52,7 +52,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Lokalizacja" left="5825" top="0" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Lokalizacja" left="5825" top="0" logicalid="15" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000a50a0000" />
             </control>
@@ -63,7 +63,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Daty" left="8173" top="11520" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="3704" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Daty" left="8173" top="11520" logicalid="16" controlid="5" masterid="0" hint1="0" hint2="0" width="3704" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000780e00004d0c0000" />
             </control>
@@ -74,7 +74,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Media" left="20" top="5760" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Media" left="20" top="5760" logicalid="17" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000a50a0000" />
             </control>
@@ -85,7 +85,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="8930" top="6723" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="8930" top="6723" logicalid="18" controlid="7" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -103,7 +103,7 @@
               <point x="9230" y="7122" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="3874" top="8820" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="2651" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3874" top="8820" logicalid="19" controlid="8" masterid="0" hint1="0" hint2="0" width="2651" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -123,7 +123,7 @@
               <point x="6225" y="9120" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="2720" top="6723" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2720" top="6723" logicalid="20" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -141,7 +141,7 @@
               <point x="5420" y="7122" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="7575" top="8820" logicalid="10" controlid="10" masterid="0" hint1="0" hint2="0" width="2850" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="7575" top="8820" logicalid="21" controlid="10" masterid="0" hint1="0" hint2="0" width="2850" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -161,7 +161,7 @@
               <point x="7875" y="9120" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="6926" top="2226" logicalid="11" controlid="11" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="6926" top="2226" logicalid="22" controlid="11" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -218,123 +218,123 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="7609545c-536c-4ce0-ac21-1d3ba8c3ef5f">
+    <Dimension dwd:design-time-name="d410cf0a-9b63-40d3-94b4-fc84de4ef8f5">
       <ID>Obejrzenie Filmu Odcinka</ID>
       <Name>Obejrzenie Filmu Odcinka</Name>
       <DimensionID>Obejrzenie Filmu Odcinka</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="b5079276-0f7c-40ed-94d5-a15e2d0279e8">
+        <Attribute dwd:design-time-name="5913f223-46e8-47c8-b899-8efd2b887753">
           <AttributeID>ID Medium</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="2f3e53b5-04a6-4d1d-9fca-1a52050c7a76">
+        <Attribute dwd:design-time-name="85348615-7271-4e46-8dff-62cb80a7b660">
           <AttributeID>ID Lokalizacji Klienta</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="d844445f-6e09-4cc4-838d-d6d83824b379">
+        <Attribute dwd:design-time-name="ead9ceb4-0fbe-4ef8-9ce7-4596d73edc29">
           <AttributeID>ID Daty</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="0bec21db-aee0-410f-8d32-c0623371e85d">
+        <Attribute dwd:design-time-name="50267b3a-c8e2-4d80-9fbc-7946913a6a5b">
           <AttributeID>ID Serwera</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="e9c9b9df-a334-4ea9-b660-ec69c09e9568">
+        <Attribute dwd:design-time-name="ac66af6c-162f-489f-9997-7ce6c4b6fd3b">
           <AttributeID>Obejrzenie Filmu Odcinka - ID Medium</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="6ed30614-3e29-4396-8355-8f7021aa484c">
+        <Attribute dwd:design-time-name="18ed9f0f-26c5-4644-befa-f8bd4a81403c">
           <AttributeID>ID Czasu</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="12664539-189d-4fef-b9a4-4ad69cd7af76">
+    <Dimension dwd:design-time-name="90a934ad-a37c-428f-a244-12de19a287b6">
       <ID>Daty</ID>
       <Name>Daty</Name>
       <DimensionID>Daty</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="f358bd4d-4ed9-408f-b48a-f65c9d481be0">
+        <Attribute dwd:design-time-name="c00352f6-7a3e-46a6-976d-a282eab44fd8">
           <AttributeID>ID Daty</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="8f37c2cf-5131-428f-9477-3fba3d90a8a3">
+        <Attribute dwd:design-time-name="4b1356c5-7eaa-4284-9c07-7dfe6ccb30ed">
           <AttributeID>Rok</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="6bb0ad1c-568e-4f09-a8f9-925fb7ad537e">
+        <Attribute dwd:design-time-name="99bb8f75-1d1f-47cb-a559-f6b1a5cc7fb2">
           <AttributeID>Miesiac</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="13ac0f04-da2c-449e-ad19-9a5f341946c9">
+        <Attribute dwd:design-time-name="49f2f824-4f05-4bfd-807d-f0be65519a79">
           <AttributeID>Dzien</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="3de6f026-c943-4864-9906-a9e411734e4f">
+        <Hierarchy dwd:design-time-name="55621f8b-6de5-4e97-a4ae-474a2313ed26">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="d9f6a90c-dfde-4f6e-bccf-d7357654b0e3">
+    <Dimension dwd:design-time-name="8659516f-49ec-4b92-a65a-b9e3da1e681a">
       <ID>Serwer</ID>
       <Name>Serwer</Name>
       <DimensionID>Serwer</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="9cd86241-b2ce-4b3b-ac52-ea0882f5e847">
+        <Attribute dwd:design-time-name="f712e984-6e2c-4c85-9e5c-9f91d0a9348f">
           <AttributeID>ID Serwera</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="0a83be79-ecfc-4daa-8704-531b3a4637e8">
+    <Dimension dwd:design-time-name="5277c451-fa5d-47dc-b41c-a9496b708d2a">
       <ID>Media</ID>
       <Name>Media</Name>
       <DimensionID>Media</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="7d465293-7c16-412b-877e-527c09065c16">
+        <Attribute dwd:design-time-name="beab7d51-d4ad-451f-b926-2ba5ddb7b36a">
           <AttributeID>ID Medium</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="9f544220-55a4-43d6-bea3-5a70af3837d1">
+    <Dimension dwd:design-time-name="1aa222bc-5079-4aec-ad01-a4bacbb777ee">
       <ID>Czas</ID>
       <Name>Czas</Name>
       <DimensionID>Czas</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="1f0e7aa1-6103-4921-ac30-146b6737a424">
+        <Attribute dwd:design-time-name="7797b083-0f9d-4bb2-9b44-5a90d22fc069">
           <AttributeID>ID Czasu</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1e86d2bb-5935-48a3-9a8e-cfa82a834c83">
+        <Attribute dwd:design-time-name="74525d79-5b5c-405c-b2d3-27db62a6aa36">
           <AttributeID>Pora Dnia</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="59143ad6-eab0-4e7c-93fc-44129921c211">
+        <Attribute dwd:design-time-name="dabd8959-2433-4481-b3f9-358bea1d7217">
           <AttributeID>Godzina</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="657cfb68-a7bf-4cdf-94bd-55f31515bbd2">
+        <Hierarchy dwd:design-time-name="1ad86323-1168-4dd3-8142-86b0e6c2bd8b">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="b6fd24ef-2b23-494a-8ba8-0ba10a9e48a4">
+    <Dimension dwd:design-time-name="7bd6e8ca-838c-4dd7-a4c1-d3efd92cf9fe">
       <ID>Lokalizacja</ID>
       <Name>Lokalizacja</Name>
       <DimensionID>Lokalizacja</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="32a1e866-b7a3-41db-b045-100b4e8213ff">
+        <Attribute dwd:design-time-name="9ba5b49c-bab2-4ed5-ac40-fea6e4d42f19">
           <AttributeID>ID Lokalizacji</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="173cf6d2-de16-4a49-9935-ed56ca7c999c">
+        <Attribute dwd:design-time-name="a9645aaa-13ec-4c6f-8d3c-f7efde9e8418">
           <AttributeID>Panstwo</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a76cef0e-c4f8-42f4-9d45-c5e4a079dbe7">
+        <Attribute dwd:design-time-name="6a71274e-13df-486a-9053-5e163cb4b5c0">
           <AttributeID>Wojewodztwo</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="08e0f16a-7d43-4f5c-b935-8ce06e17f0f4">
+        <Attribute dwd:design-time-name="275e9a2c-4107-4b1c-a118-5443a548911d">
           <AttributeID>Miasto</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="f6bc2441-b867-4f8b-9ff4-d37f39a574bc">
+        <Hierarchy dwd:design-time-name="32ebc0ee-4895-4128-9a10-32d5b0fede50">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="9417d1d3-4439-4610-9fba-9034acd053a2">
+    <MeasureGroup dwd:design-time-name="8905bdbb-7297-4646-ba7a-2cf9c74ebca0">
       <ID>Obejrzenie Filmu Odcinka</ID>
       <Name>Obejrzenie Filmu Odcinka</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -342,25 +342,26 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="efb60ba0-acbb-4cfa-a6f5-a5f71573f9e0">
+        <Measure dwd:design-time-name="11a1ca4e-976b-4a2c-8090-26cd30d3237e">
           <ID>Jakosc</ID>
           <Name>Jakosc</Name>
-          <Source dwd:design-time-name="bb894202-ebf3-482f-be42-5ebd2665f303">
+          <AggregateFunction>AverageOfChildren</AggregateFunction>
+          <Source dwd:design-time-name="951aa7be-fc13-46fb-9e13-042f37dc3e99">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="9ae1a00b-b7f0-4337-a1d1-1ab8a136e085">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="13fefac0-ad28-41d6-acd0-16ae2e6673e7">
               <TableID>dbo_ObejrzenieFilmuOdcinka</TableID>
               <ColumnID>Jakosc</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="34f52213-9888-4815-ab09-fe1484dda602">
+        <Measure dwd:design-time-name="f054e0d1-5609-43fc-b4e8-42a318d79141">
           <ID>Obejrzenie Filmu Odcinka Count</ID>
           <Name>Obejrzenie Filmu Odcinka Count</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="2ec36e79-346f-4184-a3e8-52f05cfe79b5">
+          <Source dwd:design-time-name="def047ff-73ca-4a48-87e4-5347cbc0558f">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="955e5e3d-64a1-4911-a73d-3cebd6adbfe1">
+            <Source xsi:type="RowBinding" dwd:design-time-name="daf756d1-1fc7-42bd-bece-bfb7bb7c6bed">
               <TableID>dbo_ObejrzenieFilmuOdcinka</TableID>
             </Source>
           </Source>
@@ -369,43 +370,43 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="953c3a74-7b65-4f88-8971-e7f5cae63904">
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="b6ae2f31-a0cc-416b-92cc-fd2603ec498a">
           <CubeDimensionID>Obejrzenie Filmu Odcinka</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="745123b6-198e-461a-ab1e-db6977885016">
+            <Attribute dwd:design-time-name="2d08fd4e-f4b6-4973-a025-8bb51f78969b">
               <AttributeID>ID Medium</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="0f75955e-322d-48aa-b07e-300490f860c5">
+                <KeyColumn dwd:design-time-name="14e8df4a-d30a-49d9-b6d8-b34639120efa">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="08946339-cf0b-4e52-88c5-24f95fc45a11">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="fe2c4e25-561a-4e0f-870b-a7e28be2e687">
                     <TableID>dbo_ObejrzenieFilmuOdcinka</TableID>
                     <ColumnID>ID_Medium</ColumnID>
                   </Source>
                 </KeyColumn>
-                <KeyColumn dwd:design-time-name="f247ac7c-ee6c-4f42-923d-4e55ab430a7f">
+                <KeyColumn dwd:design-time-name="676274c6-cf28-425a-a88c-04b17747c4e7">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="19765529-f9dd-435b-8220-11a5cbfb1d1c">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c768986e-a924-4a06-9d29-c0a847778036">
                     <TableID>dbo_ObejrzenieFilmuOdcinka</TableID>
                     <ColumnID>ID_Serwera</ColumnID>
                   </Source>
                 </KeyColumn>
-                <KeyColumn dwd:design-time-name="9141b09b-d046-4886-8f23-859ec3d7cbf2">
+                <KeyColumn dwd:design-time-name="c8b52f04-6fef-4fae-93e0-eee676ea50b2">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3077c9f8-f083-4d7a-8a87-96313af49e8a">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1b1337cd-3685-4a54-828f-827c2cf0d3fc">
                     <TableID>dbo_ObejrzenieFilmuOdcinka</TableID>
                     <ColumnID>ID_LokalizacjiKlienta</ColumnID>
                   </Source>
                 </KeyColumn>
-                <KeyColumn dwd:design-time-name="8a4b3fe0-1b19-4b36-ba0b-782fda7746e3">
+                <KeyColumn dwd:design-time-name="7e61719b-3833-46e5-90dc-19855eae3ab7">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6ea1c0f0-5d67-4344-ba52-0edfcd581eff">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ab7ab9db-61d5-485a-a69f-ea1317aace9d">
                     <TableID>dbo_ObejrzenieFilmuOdcinka</TableID>
                     <ColumnID>ID_Daty</ColumnID>
                   </Source>
                 </KeyColumn>
-                <KeyColumn dwd:design-time-name="8bc0bad8-c24c-4ce7-a869-f358afdf07b2">
+                <KeyColumn dwd:design-time-name="56e0148b-b9b5-4bbe-a85f-f33b4dfafefb">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1e6bdb80-3759-45bb-aedd-ef10b7f0b57a">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="750740de-c80f-49dd-9bee-87b73de6095e">
                     <TableID>dbo_ObejrzenieFilmuOdcinka</TableID>
                     <ColumnID>ID_Czasu</ColumnID>
                   </Source>
@@ -415,15 +416,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="678a6df0-08c5-4c65-83af-2ae750db4881">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3654c84d-4a3f-4c79-b495-c9c8c6aafcf7">
           <CubeDimensionID>Lokalizacja</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="df1d4805-8c7b-4422-bce3-07200b43c157">
+            <Attribute dwd:design-time-name="6242992f-80c5-4dd5-87e0-062d7c35ae92">
               <AttributeID>ID Lokalizacji</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="59ecf602-8446-462c-99df-58a2f25eff5b">
+                <KeyColumn dwd:design-time-name="ad9a5c05-eaf8-4d3d-8919-c24f25e8c2b5">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b38ec723-e58e-44bb-a9bd-d955182100e3">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9169597e-6952-4149-bd00-87350e012564">
                     <TableID>dbo_ObejrzenieFilmuOdcinka</TableID>
                     <ColumnID>ID_LokalizacjiKlienta</ColumnID>
                   </Source>
@@ -433,15 +434,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="daada7b7-f20b-44a7-b8c2-50777862fbbd">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="11c9fd1f-7938-47f2-bdef-5da436e661ae">
           <CubeDimensionID>Daty</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="96f9bfea-57aa-4aa8-8fea-ffbeb2a0d3e7">
+            <Attribute dwd:design-time-name="c8d4c4f1-c47e-4fb3-969d-25a38d6e1201">
               <AttributeID>ID Daty</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="3486e5b1-b308-4c3c-80f7-a10571c70ec0">
+                <KeyColumn dwd:design-time-name="4fb4fc4c-c2b4-47ad-b983-187bcefdcc6b">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f9ab9a51-2899-4028-90ea-16d9124460d8">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a1656ad2-4cf7-4a07-b14a-e8ba20133de3">
                     <TableID>dbo_ObejrzenieFilmuOdcinka</TableID>
                     <ColumnID>ID_Daty</ColumnID>
                   </Source>
@@ -451,15 +452,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b478e469-c65a-40f1-ba0d-6411076037b5">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e1a33ab2-d5e3-4cff-afd4-484572abeb90">
           <CubeDimensionID>Serwer</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="631c137b-7afb-4096-b2fe-e55ce766acb4">
+            <Attribute dwd:design-time-name="dde57d05-f0f7-4293-992f-b0c52f91cfda">
               <AttributeID>ID Serwera</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="2d7cd442-4798-4691-9418-bcb46173805b">
+                <KeyColumn dwd:design-time-name="25f5d805-7978-41b4-a27b-2f2b73e739ee">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="689ccb6c-7df2-42e4-80f0-e3302ed7ef69">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="113256ec-26e6-4c8c-afc0-d39f6fc702b4">
                     <TableID>dbo_ObejrzenieFilmuOdcinka</TableID>
                     <ColumnID>ID_Serwera</ColumnID>
                   </Source>
@@ -469,15 +470,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="971c7064-b173-4a11-a4d5-7d11190d1db1">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e852d2a3-7694-4045-abae-f98f387e7346">
           <CubeDimensionID>Media</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="851b5133-931a-4b64-970a-d75b2e690584">
+            <Attribute dwd:design-time-name="a9ecb593-816a-4d58-a084-3b6fa3217bc4">
               <AttributeID>ID Medium</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="1e360e60-72d1-4c24-bf08-eb6a54054976">
+                <KeyColumn dwd:design-time-name="2280dc75-e8d4-467a-bb72-e120d5e8b1ce">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="08dd3f42-da95-477c-9980-ffb6e6902e4b">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="70e2e34f-5c4a-4da4-afad-841307cc6eff">
                     <TableID>dbo_ObejrzenieFilmuOdcinka</TableID>
                     <ColumnID>ID_Medium</ColumnID>
                   </Source>
@@ -487,15 +488,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b260ee97-2583-437b-ac11-febb89c10364">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3d58d498-ebea-406d-851e-847e47173b93">
           <CubeDimensionID>Czas</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="00338e8f-8a54-4e9a-b2aa-5fe695fa86c8">
+            <Attribute dwd:design-time-name="8945627e-f16e-4fe6-a8bb-f025d6bfae0d">
               <AttributeID>ID Czasu</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="5f354d3b-e8e6-4259-988e-f3219c1b5141">
+                <KeyColumn dwd:design-time-name="3f75acd0-ac29-4b37-bc0b-a50a0b225d06">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0293aa0c-3818-4bcf-a8fa-9ee541fb2623">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="476eba2e-1fca-4e1b-b635-cc0882dcff44">
                     <TableID>dbo_ObejrzenieFilmuOdcinka</TableID>
                     <ColumnID>ID_Czasu</ColumnID>
                   </Source>
@@ -509,7 +510,7 @@
       <Partitions />
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="41b7af16-2128-4fa7-b48e-590008d59dca">
+  <Source dwd:design-time-name="459b323a-01bb-462e-a67a-d98fa1d9c30b">
     <DataSourceViewID>Vod</DataSourceViewID>
   </Source>
 </Cube>
